@@ -1,11 +1,11 @@
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import About from "../components/About";
-import Collections from "../components/Collections";
-import Gallery from "../components/Gallery";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
-import WhatsAppButton from "../components/WhatsAppButton";
+import Navbar from "./Navbar";
+import Hero from "./Hero";
+import About from "./About";
+import Gallery from "./Gallery";
+import Contact from "./Contact";
+import Footer from "./Footer";
+import WhatsAppButton from "./WhatsAppButton";
+import Collections from "./Collections";
 
 export default function Home() {
   return (
