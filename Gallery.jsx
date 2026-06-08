@@ -4,46 +4,60 @@ export default function Gallery() {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
   const images = [
-    // Resin Art
-    { src: "/images/FB_IMG_1780861818225.jpg", category: "Resin Art" },
-    { src: "/images/FB_IMG_1780861824534.jpg", category: "Resin Art" },
-    { src: "/images/FB_IMG_1780861831863.jpg", category: "Resin Art" },
-    { src: "/images/FB_IMG_1780861877515.jpg", category: "Resin Art" },
-    { src: "/images/FB_IMG_1780861886548.jpg", category: "Resin Art" },
-    { src: "/images/FB_IMG_1780861893505.jpg", category: "Resin Art" },
 
-    // Crochet
-    { src: "/images/IMG20240325215244.jpg", category: "Crochet" },
-    { src: "/images/IMG20240330212251.jpg", category: "Crochet" },
-    { src: "/images/IMG20250220224452.jpg", category: "Crochet" },
-    { src: "/images/IMG20250305201541.jpg", category: "Crochet" },
-    { src: "/images/IMG20251214211619.jpg", category: "Crochet" },
-    { src: "/images/IMG20260117125126.jpg", category: "Crochet" },
+  // Resin Art
+  { src: "/images/Resin/FB_IMG_1780861814200.jpg", category: "Resin Art" },
+  { src: "/images/Resin/FB_IMG_1780861818225.jpg", category: "Resin Art" },
+  { src: "/images/Resin/FB_IMG_1780861824534.jpg", category: "Resin Art" },
+  { src: "/images/Resin/FB_IMG_1780861831863.jpg", category: "Resin Art" },
 
-    // Papercraft
-    { src: "/images/IMG-20220618-WA0057.jpeg", category: "Papercraft" },
-    { src: "/images/IMG-20220625-WA0003.jpeg", category: "Papercraft" },
-    { src: "/images/IMG-20220808-WA0003.jpeg", category: "Papercraft" },
-    { src: "/images/IMG-20220808-WA0004.jpeg", category: "Papercraft" },
-    { src: "/images/IMG-20220808-WA0008.jpeg", category: "Papercraft" },
-    { src: "/images/IMG-20240406-WA0005.jpeg", category: "Papercraft" },
+  // Crochet
+  { src: "/images/Crochet/IMG20240325215244.jpg", category: "Crochet" },
+  { src: "/images/Crochet/IMG20250220224452.jpg", category: "Crochet" },
+  { src: "/images/Crochet/IMG20250305201541.jpg", category: "Crochet" },
+  { src: "/images/Crochet/IMG20260117125126.jpg", category: "Crochet" },
+  { src: "/images/Crochet/IMG_20240410_203051.jpg", category: "Crochet" },
+  { src: "/images/Crochet/IMG-20240406-WA0005.jpeg", category: "Crochet" },
 
-    // Festive Decor
-    { src: "/images/IMG20231110153712.jpg", category: "Festive Decor" },
-    { src: "/images/IMG20250128072211.jpg", category: "Festive Decor" },
-    { src: "/images/IMG20250131030606.jpg", category: "Festive Decor" },
+  // Papercraft
+  { src: "/images/Papercraft/FB_IMG_1780861877515.jpg", category: "Papercraft" },
+  { src: "/images/Papercraft/FB_IMG_1780861886548.jpg", category: "Papercraft" },
+  { src: "/images/Papercraft/FB_IMG_1780861931263.jpg", category: "Papercraft" },
+  { src: "/images/Papercraft/FB_IMG_1780861937487.jpg", category: "Papercraft" },
+  { src: "/images/Papercraft/FB_IMG_1780861989749.jpg", category: "Papercraft" },
+  { src: "/images/Papercraft/FB_IMG_1780861994963.jpg", category: "Papercraft" },
+  { src: "/images/Papercraft/IMG-20191230-WA0006.jpeg", category: "Papercraft" },
+  { src: "/images/Papercraft/IMG20250418132606.jpg", category: "Papercraft" },
+  { src: "/images/Papercraft/IMG20251214211619.jpg", category: "Papercraft" },
+  { src: "/images/Papercraft/IMG_20200102_175954.jpg", category: "Papercraft" },
 
-    // Floral Baskets
-    { src: "/images/FB_IMG_1780861931263.jpg", category: "Floral Baskets" },
-    { src: "/images/FB_IMG_1780861937487.jpg", category: "Floral Baskets" },
-    { src: "/images/FB_IMG_1780861977580.jpg", category: "Floral Baskets" },
+  // Festive Decor
+  { src: "/images/festive/FB_IMG_1780861904474.jpg", category: "Festive Decor" },
+  { src: "/images/festive/FB_IMG_1780861977580.jpg", category: "Festive Decor" },
+  { src: "/images/festive/FB_IMG_1780862017183.jpg", category: "Festive Decor" },
+  { src: "/images/festive/FB_IMG_1780862035599.jpg", category: "Festive Decor" },
+  { src: "/images/festive/IMG20250128072211.jpg", category: "Festive Decor" },
+  { src: "/images/festive/IMG20250131030606.jpg", category: "Festive Decor" },
 
-    // Extra Items
-    { src: "/images/FB_IMG_1780861989749.jpg", category: "Resin Art" },
-    { src: "/images/FB_IMG_1780861994963.jpg", category: "Resin Art" },
-    { src: "/images/IMG_20200102_175954.jpg", category: "Papercraft" },
-    { src: "/images/IMG_20240410_203051.jpg", category: "Papercraft" }
-  ];
+  // Floral Baskets
+  { src: "/images/floral/IMG20230621114136.jpg", category: "Floral Baskets" },
+  { src: "/images/floral/IMG20230621114220.jpg", category: "Floral Baskets" },
+  { src: "/images/floral/IMG20240108164008.jpg", category: "Floral Baskets" },
+  { src: "/images/floral/IMG20240108164045.jpg", category: "Floral Baskets" },
+  { src: "/images/floral/IMG20240108164215_BURST001.jpg", category: "Floral Baskets" },
+  { src: "/images/floral/IMG20240108164225.jpg", category: "Floral Baskets" },
+  { src: "/images/floral/IMG20240519220034.jpg", category: "Floral Baskets" },
+  { src: "/images/floral/IMG20240519220106.jpg", category: "Floral Baskets" },
+
+  // Fridge Magnets
+  { src: "/images/Frdge-magnet/FB_IMG_1780861893505.jpg", category: "Fridge Magnets" },
+  { src: "/images/Frdge-magnet/IMG_20190615_195638.jpg", category: "Fridge Magnets" },
+  { src: "/images/Frdge-magnet/IMG_20200511_123250.jpg", category: "Fridge Magnets" },
+  { src: "/images/Frdge-magnet/IMG_20200511_123324.jpg", category: "Fridge Magnets" },
+  { src: "/images/Frdge-magnet/IMG_20260608_122412.jpg", category: "Fridge Magnets" },
+  { src: "/images/Frdge-magnet/IMG_20260608_122508.jpg", category: "Fridge Magnets" },
+
+];
 
   const filteredImages =
     selectedCategory === "All"
@@ -64,6 +78,7 @@ export default function Gallery() {
           "Papercraft",
           "Festive Decor",
           "Floral Baskets"
+          "Fridge Magnets"
         ].map((cat) => (
           <button
             key={cat}
