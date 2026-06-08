@@ -40,7 +40,7 @@ export default function Gallery() {
             key={index}
             src={img}
             alt="Craft"
-            className="rounded-2xl shadow-lg w-full"
+            className="rounded-2xl shadow-lg w-full hover:scale-105 transition duration-300"
           />
         ))}
       </div>
