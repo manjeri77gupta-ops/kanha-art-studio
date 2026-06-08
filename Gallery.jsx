@@ -14,7 +14,7 @@ export default function Gallery() {
         Handmade Gallery ✨
       </h2>
 
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
         {images.map((img, index) => (
           <img
             key={index}
