@@ -77,7 +77,7 @@ export default function Gallery() {
           "Crochet",
           "Papercraft",
           "Festive Decor",
-          "Floral Baskets"
+          "Floral Baskets",
           "Fridge Magnets"
         ].map((cat) => (
           <button
