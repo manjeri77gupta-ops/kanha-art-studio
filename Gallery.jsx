@@ -10,6 +10,17 @@ export default function Gallery() {
   { src: "/images/Resin/FB_IMG_1780861818225.jpg", category: "Resin Art" },
   { src: "/images/Resin/FB_IMG_1780861824534.jpg", category: "Resin Art" },
   { src: "/images/Resin/FB_IMG_1780861831863.jpg", category: "Resin Art" },
+  { src: "/images/Resin/FB_IMG_1780861814200.jpg", category: "Resin Art" },
+  { src: "/images/Resin/FB_IMG_1780861818225.jpg", category: "Resin Art" },
+  { src: "/images/Resin/FB_IMG_1780861824534.jpg", category: "Resin Art" },
+  { src: "/images/Resin/FB_IMG_1780861831863.jpg", category: "Resin Art" },
+  { src: "/images/Resin/IMG-20220618-WA0057.jpeg", category: "Resin Art" },
+{ src: "/images/Resin/IMG-20220625-WA0003.jpeg", category: "Resin Art" },
+{ src: "/images/Resin/IMG-20220808-WA0003.jpeg", category: "Resin Art" },
+{ src: "/images/Resin/IMG-20220808-WA0004.jpeg", category: "Resin Art" },
+{ src: "/images/Resin/IMG-20220808-WA0008.jpeg", category: "Resin Art" },
+{ src: "/images/Resin/IMG2023110153712.jpg", category: "Resin Art" },
+{ src: "/images/Resin/IMG20240330212251.jpg", category: "Resin Art" },
 
   // Crochet
   { src: "/images/Crochet/IMG20240325215244.jpg", category: "Crochet" },
