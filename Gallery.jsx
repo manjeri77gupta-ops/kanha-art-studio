@@ -33,6 +33,13 @@ export default function Gallery() {
   { src: "/images/Crochet/IMG20251214211619.jpg", category: "Crochet" },
  
   // Papercraft
+  { src: "/images/Papercraft/FB_IMG_1780861994963.jpg", category: "Papercraft" },
+{ src: "/images/Papercraft/IMG20230626074609.jpg", category: "Papercraft" },
+{ src: "/images/Papercraft/IMG20230626074638.jpg", category: "Papercraft" },
+{ src: "/images/Papercraft/IMG20250128072211.jpg", category: "Papercraft" },
+{ src: "/images/Papercraft/IMG20250131030606.jpg", category: "Papercraft" },
+{ src: "/images/Papercraft/IMG20260607183432.jpg", category: "Papercraft" },
+{ src: "/images/Papercraft/IMG_20231027_152334.jpg", category: "Papercraft" },
   { src: "/images/Papercraft/FB_IMG_1780861877515.jpg", category: "Papercraft" },
   { src: "/images/Papercraft/FB_IMG_1780861886548.jpg", category: "Papercraft" },
   { src: "/images/Papercraft/FB_IMG_1780861931263.jpg", category: "Papercraft" },
