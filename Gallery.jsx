@@ -29,7 +29,9 @@ export default function Gallery() {
   { src: "/images/Crochet/IMG20260117125126.jpg", category: "Crochet" },
   { src: "/images/Crochet/IMG_20240410_203051.jpg", category: "Crochet" },
   { src: "/images/Crochet/IMG-20240406-WA0005.jpeg", category: "Crochet" },
-
+  { src: "/images/Crochet/IMG20240330212251.jpg", category: "Crochet" },
+  { src: "/images/Crochet/IMG20251214211619.jpg", category: "Crochet" },
+ 
   // Papercraft
   { src: "/images/Papercraft/FB_IMG_1780861877515.jpg", category: "Papercraft" },
   { src: "/images/Papercraft/FB_IMG_1780861886548.jpg", category: "Papercraft" },
