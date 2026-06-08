@@ -2,7 +2,7 @@ export default function Gallery() {
   const images = [
     "/images/IMG20240325215244.jpg",
     "/images/IMG20240330212251.jpg",
-    "/images/IMG20250520224452.jpg",
+    "/images/IMG20250220224452.jpg",
     "/images/IMG20250305201541.jpg",
     "/images/IMG20251214211619.jpg",
     "/images/IMG20260117125126.jpg"
